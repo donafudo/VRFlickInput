@@ -17,7 +17,7 @@ HTC Vive Controller
 ### 2.パッケージのダウンロード
 最新の[.unitypackage](https://github.com/donafudo/VRFlickInput/releases/tag/v0.1.0)をダウンロードし、プロジェクトにインポートします。
 
-以上を行うとScenesフォルダ内のDEMOは動作すると思います。
+以上を行うとScenesフォルダ内のデモシーンは動作すると思います。
 
 ## 新しいSceneで使う
 自分で新しいSceneを作って、そこでVRFlickInputを使う場合の手順は　　
@@ -35,7 +35,7 @@ HTC Vive Controller
 RightControllerTracked,　LeftControllerTrackedのそれぞれに、[CameraRig]内のコントローラーについている`SteamVR_TrackedObject`コンポーネントを設定して下さい。  
 ![SetupControllerInput](https://raw.githubusercontent.com/donafudo/VRFlickInput/images/SetupControllerInput.png)
 ## 操作方法
-Keyにコントローラを近づけ、**トリガーを引いた状態で上下左右にフリック(もしくはそのまま)**してトリガーを離すと文字入力ができます。
+Keyにコントローラを近づけ、トリガーを引いた状態で上下左右にフリック(もしくはそのまま)してトリガーを離すと文字入力ができます。
 
 濁音入力はパッドの左を押したままトリガーを離します、同様にして  
 半濁音はパッド右  
@@ -46,7 +46,7 @@ Keyにコントローラを近づけ、**トリガーを引いた状態で上下
 ## Licence
 The MIT License (MIT)
 
-Copyright (c) 2018 dona
+Copyright (c) 2018 donafudo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
