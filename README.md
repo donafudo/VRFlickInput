@@ -1,9 +1,10 @@
 # VRFlickInput
-![DemoMovie](https://i.imgur.com/ruqAZZ5.gif)  
+![DemoMovie](https://raw.githubusercontent.com/donafudo/VRFlickInput/images/Demo.gif)  
 Vive対応のVR向け日本語入力システムです。
 
 スマートフォンのフリック入力と同じ感覚で日本語入力ができます。
 
+unitypackageは[こちら](https://github.com/donafudo/VRFlickInput/releases/tag/v0.1.0)からダウンロードできます。
 
 ## 開発環境
 Unity 2017.4.1f1  
@@ -14,7 +15,7 @@ HTC Vive Controller
 コードの一部やコントローラーのトラッキングをSteamVR Pluginに依存しているため、AssetStoreからSteamVR PluginをImportします。  
 先に`.unitypackage`のImportからするとPrefabの参照関係が壊れます。
 ### 2.パッケージのダウンロード
-最新の`.unitypackage`をダウンロードし、プロジェクトにインポートします。
+最新の[.unitypackage](https://github.com/donafudo/VRFlickInput/releases/tag/v0.1.0)をダウンロードし、プロジェクトにインポートします。
 
 以上を行うとScenesフォルダ内のDEMOは動作すると思います。
 
@@ -27,12 +28,12 @@ HTC Vive Controller
 1.[CameraRig]の子になっている左右のControllerの両方に`VRFI_Operater`スクリプトをアタッチします。  
 2.ControllerSideをコントローラに合わせて設定します。  
 3.`VRFI_Operater`スクリプトのVRFlickKeyBoardに、SceneにあるVRFlickKeyBoardを設定して下さい。  
-![SetupOperater](https://i.imgur.com/KTFpoRk.png)  
+![SetupOperater](https://raw.githubusercontent.com/donafudo/VRFlickInput/images/VRFI_SetpuOperater.png)  
 
 
 次に、VRFlickKeyBoardにアタッチされている`VRFI_ControllerInput`の、
 RightControllerTracked,　LeftControllerTrackedのそれぞれに、[CameraRig]内のコントローラーについている`SteamVR_TrackedObject`コンポーネントを設定して下さい。  
-![SetupControllerInput](https://i.imgur.com/oLiH4fa.png)
+![SetupControllerInput](https://raw.githubusercontent.com/donafudo/VRFlickInput/images/SetupControllerInput.png)
 ## 操作方法
 Keyにコントローラを近づけ、**トリガーを引いた状態で上下左右にフリック(もしくはそのまま)**してトリガーを離すと文字入力ができます。
 
